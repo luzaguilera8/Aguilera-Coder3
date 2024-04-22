@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda de Fotografía</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Bienvenido a nuestra tienda de fotografía</h1>
+    <div id="productos" class="productos"></div>
+    <div id="carrito-productos" class="carrito-productos">
+      <h2>Carrito de compras</h2>
+      <div id="carrito"></div>
+      <p class="carrito-total" id="carrito-total">Total: $0</p>
+      <button class="vaciar-carrito-btn" onclick="vaciarCarrito()">Vaciar carrito</button>
+      <button class="ver-compras-btn" id="ver-compras">Ver historial de compras</button>
+      <button class="comprar-btn" onclick="comprarProductos()">Comprar productos seleccionados</button>
+    </div>
+    <div id="historial-compras" class="historial-compras">
+      <h2>Historial de compras</h2>
+      <div id="lista-historial"></div>
+    </div>
+  </div>
+  <script src="js/main.js"></script>  
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
+
+ 
